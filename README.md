@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+## React 仿网易云项目练习
+此项目用于学习 react ,后台来自网易开源接口：https://neteasecloudmusicapi-docs.4everland.app/#/
+为了练习我也自己搭建了属于自己的后台接口，代码中虽然还有许多问题，但也会在后续慢慢改进，练习这个项目让我初窥 react 的面貌，实感 react 的灵活，后续加强 react 学习。
+谨上
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 安装
+```javascript
+ git clone ‘当前项目链接’
+ cd cloudMusicApp
+ yarn install  || npm install
+ yarn start  || npm start
+ yarn build  || npm build
+```
 
-## Available Scripts
+## 介绍
+1、 主页
+![image](https://user-images.githubusercontent.com/51089202/192270739-9010aa21-4c0c-4583-bd42-ae178d84a3e0.png)
+![image](https://user-images.githubusercontent.com/51089202/192270908-bfa08d67-c37a-4a36-950a-c84e77f5843e.png)
 
-In the project directory, you can run:
+2、热门推荐歌单 - 详情页
+![image](https://user-images.githubusercontent.com/51089202/192270601-7f5d8f11-54e0-4216-8dab-00e0ae5429b2.png)
 
-### `npm start`
+3、新专辑 - 详情页
+![image](https://user-images.githubusercontent.com/51089202/192270982-205fc678-3b11-41b6-a590-dee4abe2b059.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4、播放器 - 歌词滚动、展示
+![image](https://user-images.githubusercontent.com/51089202/192271269-8d896aa5-7240-4b46-97f5-047816084cff.png)
