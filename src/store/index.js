@@ -1,0 +1,19 @@
+import {createStore, applyMiddleware, compose} from 'redux'
+import thunk from "redux-thunk";
+
+import cReducer from "./reducer";
+
+// 配置 redux 插件
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+const store = createStore(cReducer,composeEnhancers(applyMiddleware(thunk)))
+
+export default store
+
+// import { configureStore } from '@reduxjs/toolkit'
+//
+// export default configureStore({
+//   reducer: {
+//
+//   },
+// })
